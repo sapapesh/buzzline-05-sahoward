@@ -23,8 +23,9 @@ Example JSON message
 
 # import from standard library
 import os
-import pathlib
+import pathlib 
 import sqlite3
+from pathlib import Path
 
 # import from local modules
 import utils.utils_config as config
@@ -150,7 +151,7 @@ def main():
     logger.info("Starting db testing.")
 
     # Use config to make a path to a parallel test database
-    DATA_PATH: pathlib.path = config.get_base_data_path
+    DATA_PATH: pathlib.path = config.get_base_data_path()
     TEST_DB_PATH: pathlib.Path = DATA_PATH / "test_buzz.sqlite"
 
     # Initialize the SQLite database by passing in the path
