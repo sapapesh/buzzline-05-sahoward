@@ -1,218 +1,115 @@
-""" kafka_sqlite_consumer.py 
+"""
+consumer_sahoward.py
 
-This consumer reads messages from a Kafka topic one at a time and 
-processes them by:
-1. Storing the raw message in 'streamed_messages'.
-2. Recalculating and updating the author's average sentiment in 
-   'author_sentiment_summary'.
-
-It runs continuously until manually stopped (Ctrl+C).
-
+A streaming consumer that:
+- Reads ONE message at a time as it becomes available.
+- Inserts that message into SQLite (persistent store).
+- Computes average sentiment per author.
 """
 
-#####################################
-# Import Modules
-#####################################
-
-# stdlib
-import json
-import pathlib 
-import sqlite3
 import time
-
-# external
-from kafka import KafkaConsumer # kafka-python-ng
-
-# local
+import pathlib
+import sqlite3
 import utils.utils_config as config
 from utils.utils_logger import logger
 
-# Import the necessary database functions from the previous consumer file
-# NOTE: Assuming the functions from consumer_sahoward.py are available/imported
-# For this example, we redefine the core functions here for completeness.
+# Import database helpers from sqlite_consumer_case
+from .sqlite_consumer_case import init_db, insert_message
+
 
 #####################################
-# Database Functions (from consumer_sahoward.py)
+# Function to calculate average sentiment
 #####################################
-
-# NOTE: The init_db, update_author_average_sentiment, and 
-# insert_message functions from the previous response are necessary 
-# for this consumer to work. They are defined below.
-
-def init_db(db_path: pathlib.Path):
-    """Initializes the two required tables in the SQLite database."""
-    logger.info("Calling SQLite init_db() to set up tables.")
-    try:
-        # Create directories if needed (omitted for brevity, assume utils.utils_config handles it)
-        # os.makedirs(os.path.dirname(db_path), exist_ok=True) 
-        
-        with sqlite3.connect(db_path) as conn:
-            cursor = conn.cursor()
-
-            # Raw messages table
-            cursor.execute("DROP TABLE IF EXISTS streamed_messages;")
-            cursor.execute(
-                """
-                CREATE TABLE IF NOT EXISTS streamed_messages (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    message TEXT, author TEXT, timestamp TEXT, category TEXT, 
-                    sentiment REAL, keyword_mentioned TEXT, message_length INTEGER
-                )
-            """
-            )
-
-            # Processed results table (Average Sentiment)
-            cursor.execute("DROP TABLE IF EXISTS author_sentiment_summary;")
-            cursor.execute(
-                """
-                CREATE TABLE IF NOT EXISTS author_sentiment_summary (
-                    author TEXT PRIMARY KEY,
-                    average_sentiment REAL,
-                    total_messages INTEGER
-                )
-            """
-            )
-            conn.commit()
-        logger.info(f"SUCCESS: Database initialized at {db_path}.")
-    except Exception as e:
-        logger.error(f"ERROR: Failed to initialize SQLite database: {e}")
-
-
-def update_author_average_sentiment(author: str, db_path: pathlib.Path) -> None:
-    """Calculates the current average sentiment for an author and updates the summary table."""
+def get_average_sentiment_by_author(db_path: pathlib.Path):
+    """
+    Calculate and log the average sentiment for each author in the database.
+    """
     STR_PATH = str(db_path)
     try:
         with sqlite3.connect(STR_PATH) as conn:
             cursor = conn.cursor()
-            
-            # 1. Calculate the new average sentiment and count
             cursor.execute(
                 """
-                SELECT AVG(sentiment), COUNT(*)
-                FROM streamed_messages 
-                WHERE author = ?
-                """,
-                (author,)
+                SELECT
+                    author,
+                    AVG(sentiment) AS avg_sentiment
+                FROM
+                    streamed_messages
+                GROUP BY
+                    author
+                ORDER BY
+                    avg_sentiment DESC;
+                """
             )
-            
-            avg_sentiment, total_messages = cursor.fetchone()
+            results = cursor.fetchall()
 
-            # 2. Upsert (UPDATE or INSERT) the processed result
-            cursor.execute(
-                """
-                INSERT INTO author_sentiment_summary (author, average_sentiment, total_messages)
-                VALUES (?, ?, ?)
-                ON CONFLICT(author) DO UPDATE SET
-                    average_sentiment = excluded.average_sentiment,
-                    total_messages = excluded.total_messages;
-                """,
-                (author, avg_sentiment, total_messages)
-            )
-            conn.commit()
-            logger.info(f"    -> [Processed Result Stored]: Updated {author}'s Avg Sentiment to {avg_sentiment:.2f} (Count: {total_messages})")
-            
+        logger.info("--- Average Sentiment by Author ---")
+        if results:
+            for author, avg in results:
+                logger.info(f"Author: {author:<10} | Avg Sentiment: {avg:.2f}")
+        else:
+            logger.info("No messages found in the database.")
+        logger.info("-----------------------------------")
+
     except Exception as e:
-        logger.error(f"ERROR: Failed to update average sentiment for author {author}: {e}")
+        logger.error(f"ERROR: Failed to compute average sentiment: {e}")
 
 
-def insert_message(message: dict, db_path: pathlib.Path) -> None:
+#####################################
+# Example Message Source
+#####################################
+def fake_message_source():
     """
-    Inserts raw message and triggers the processing function.
-    This fulfills the requirement to process ONE MESSAGE AT A TIME.
+    Example generator that yields one fake message at a time.
+    Replace this with your Kafka/RabbitMQ/etc. consumer.
     """
-    STR_PATH = str(db_path)
-    author = message["author"]
-    
-    try:
-        # 1. Insert the raw message
-        with sqlite3.connect(STR_PATH) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                """
-                INSERT INTO streamed_messages (
-                    message, author, timestamp, category, sentiment, keyword_mentioned, message_length
-                ) VALUES (?, ?, ?, ?, ?, ?, ?)
-            """,
-                (
-                    message["message"], author, message["timestamp"], 
-                    message["category"], message["sentiment"], 
-                    message["keyword_mentioned"], message["message_length"],
-                ),
-            )
-            conn.commit()
-            logger.info(f"[Raw Data Stored]: Inserted message from {author}")
-            
-        # 2. Process the result for this single message
-        update_author_average_sentiment(author, db_path)
-            
-    except Exception as e:
-        logger.error(f"ERROR: Failed to insert message and update summary: {e}")
+    import itertools, datetime
+    authors = ["Alice", "Bob", "Charlie"]
+
+    for i in itertools.count():
+        yield {
+            "message": f"Streaming message {i}",
+            "author": authors[i % len(authors)],
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "category": "demo",
+            "sentiment": round((i % 10) / 10, 2),  # rotating 0.0 → 0.9
+            "keyword_mentioned": "demo",
+            "message_length": len(f"Streaming message {i}"),
+        }
+        time.sleep(2)  # simulate arrival delay
 
 
 #####################################
-# Main Consumer Loop
+# Consumer Loop
 #####################################
-
-def main() -> None:
-    """The main function for the continuous Kafka Consumer."""
-    logger.info("Starting continuous Kafka Consumer.")
-    logger.info("Use Ctrl+C to stop.")
-
-    # STEP 1. Read config
-
-    try:
-        topic: str = config.get_kafka_topic()
-        kafka_server: str = config.get_kafka_broker_address()
-        db_path: pathlib.Path = config.get_sqlite_path()
-        # --- FIX: Remove the problematic line entirely ---
-        # consumer_group: str = config.get_kafka_consumer_group() 
-    except Exception as e:
-        logger.error(f"ERROR: Failed to read environment variables: {e}")
-        return
-
-    # STEP 2. Initialize Database
-    init_db(db_path)
-
-    # STEP 3. Setup Kafka Consumer
-    consumer = None
-    try:
-        consumer = KafkaConsumer(
-            topic,
-            bootstrap_servers=kafka_server,
-            auto_offset_reset='latest',  # Start reading from the latest message
-            enable_auto_commit=True,
-            # --- CHANGE THIS TO A BRAND NEW NAME ---
-            group_id="sentiment-group-v2", # <--- Use a new, unique name here!
-            value_deserializer=lambda x: json.loads(x.decode('utf-8'))
-        )
-        logger.info(f"Kafka consumer connected to {kafka_server} on topic '{topic}'")
-        
-    except Exception as e:
-        logger.error(f"ERROR: Failed to set up Kafka consumer. Is Kafka running? Error: {e}")
-        return
-
-    # STEP 4. Continuous Poll Loop
-    try:
-        for message in consumer:
-            # message is a ConsumerRecord object
-            payload = message.value
-            
-            # The core logic: process ONE MESSAGE AT A TIME
-            insert_message(payload, db_path)
-            
-    except KeyboardInterrupt:
-        logger.warning("Consumer interrupted by user (Ctrl+C).")
-    except Exception as e:
-        logger.error(f"ERROR: Unexpected error in consumer loop: {e}")
-    finally:
-        if consumer:
-            consumer.close()
-            logger.info("Kafka consumer closed. Shutting down.")
+def consume_forever(db_path: pathlib.Path, message_source):
+    """
+    Continuously consume and insert one message at a time.
+    """
+    logger.info("Starting consumer loop...")
+    for msg in message_source:
+        try:
+            logger.info(f"Received message: {msg}")
+            insert_message(msg, db_path)
+            get_average_sentiment_by_author(db_path)
+        except Exception as e:
+            logger.error(f"Error consuming message: {e}")
+            time.sleep(1)  # backoff
 
 
 #####################################
-# Conditional Execution
+# Main
 #####################################
+def main():
+    DATA_PATH: pathlib.Path = config.get_base_data_path()
+    DB_PATH: pathlib.Path = DATA_PATH / "buzz.sqlite"
+
+    # Initialize the database once
+    init_db(DB_PATH)
+
+    # Start consuming messages one by one
+    consume_forever(DB_PATH, fake_message_source())
+
 
 if __name__ == "__main__":
     main()
