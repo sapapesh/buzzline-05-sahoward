@@ -1,4 +1,4 @@
-2025-09-28 16:49:32 | INFO | Logging to file: logs/project_log.log
-2025-09-28 16:49:32 | INFO | Log sanitization enabled, personal info removed
-2025-09-28 16:49:44 | INFO | Logging to file: logs/project_log.log
-2025-09-28 16:49:44 | INFO | Log sanitization enabled, personal info removed
+2025-09-28 16:56:26 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 283
+2025-09-28 16:56:26 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 283
+2025-09-28 16:56:26 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 282
+2025-09-28 16:56:26 | INFO | --------------------------------

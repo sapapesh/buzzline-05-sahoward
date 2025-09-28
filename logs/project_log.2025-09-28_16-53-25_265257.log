@@ -1,0 +1,572 @@
+2025-09-28 16:53:25 | INFO | {'message': 'I just saw a story! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:53:25', 'category': 'other', 'sentiment': 0.65, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 16:53:26 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:26 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:26 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:26 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 253
+2025-09-28 16:53:26 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 252
+2025-09-28 16:53:26 | INFO | --------------------------------
+2025-09-28 16:53:28 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:28 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:28 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:28 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 254
+2025-09-28 16:53:28 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 252
+2025-09-28 16:53:28 | INFO | --------------------------------
+2025-09-28 16:53:30 | INFO | {'message': 'I just found JavaScript! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:53:30', 'category': 'tech', 'sentiment': 0.02, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 16:53:30 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:53:30 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:30 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:30 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 254
+2025-09-28 16:53:30 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 253
+2025-09-28 16:53:30 | INFO | --------------------------------
+2025-09-28 16:53:32 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:32 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:32 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:32 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 254
+2025-09-28 16:53:32 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 253
+2025-09-28 16:53:32 | INFO | --------------------------------
+2025-09-28 16:53:34 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:34 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:34 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:34 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:34 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 253
+2025-09-28 16:53:34 | INFO | --------------------------------
+2025-09-28 16:53:35 | INFO | {'message': 'I just shared a meme! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 16:53:35', 'category': 'humor', 'sentiment': 0.19, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-28 16:53:36 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:53:36 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:36 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:36 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:36 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:36 | INFO | --------------------------------
+2025-09-28 16:53:38 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:38 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:38 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:38 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:38 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:38 | INFO | --------------------------------
+2025-09-28 16:53:40 | INFO | {'message': 'I just saw travel! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 16:53:40', 'category': 'travel', 'sentiment': 0.08, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-28 16:53:40 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:40 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:40 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:40 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 254
+2025-09-28 16:53:40 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 256
+2025-09-28 16:53:40 | INFO | --------------------------------
+2025-09-28 16:53:42 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:53:42 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:42 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:42 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:42 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 256
+2025-09-28 16:53:42 | INFO | --------------------------------
+2025-09-28 16:53:44 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:44 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:44 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:44 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:44 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 256
+2025-09-28 16:53:44 | INFO | --------------------------------
+2025-09-28 16:53:45 | INFO | {'message': 'I just found JavaScript! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:53:45', 'category': 'tech', 'sentiment': 0.51, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 16:53:46 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:46 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:46 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:46 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 255
+2025-09-28 16:53:46 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 257
+2025-09-28 16:53:46 | INFO | --------------------------------
+2025-09-28 16:53:48 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:53:48 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:48 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:48 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:48 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 257
+2025-09-28 16:53:48 | INFO | --------------------------------
+2025-09-28 16:53:50 | INFO | {'message': 'I just saw JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 16:53:50', 'category': 'tech', 'sentiment': 0.22, 'keyword_mentioned': 'JavaScript', 'message_length': 36}
+2025-09-28 16:53:50 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:50 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:50 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:50 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:50 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 257
+2025-09-28 16:53:50 | INFO | --------------------------------
+2025-09-28 16:53:52 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:52 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:52 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:52 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:52 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 256
+2025-09-28 16:53:52 | INFO | --------------------------------
+2025-09-28 16:53:54 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:53:54 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:54 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:54 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:54 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:54 | INFO | --------------------------------
+2025-09-28 16:53:55 | INFO | {'message': 'I just found game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 16:53:55', 'category': 'gaming', 'sentiment': 0.83, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-28 16:53:56 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:53:56 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:56 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:53:56 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:56 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:53:56 | INFO | --------------------------------
+2025-09-28 16:53:58 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:53:58 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:53:58 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:53:58 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 257
+2025-09-28 16:53:58 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 259
+2025-09-28 16:53:58 | INFO | --------------------------------
+2025-09-28 16:54:00 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 16:54:00', 'category': 'other', 'sentiment': 0.99, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 16:54:00 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:00 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:00 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:54:00 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:54:00 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 259
+2025-09-28 16:54:00 | INFO | --------------------------------
+2025-09-28 16:54:02 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:02 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:02 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:02 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:54:02 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 259
+2025-09-28 16:54:02 | INFO | --------------------------------
+2025-09-28 16:54:04 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:04 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:04 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:04 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 258
+2025-09-28 16:54:04 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 260
+2025-09-28 16:54:04 | INFO | --------------------------------
+2025-09-28 16:54:05 | INFO | {'message': 'I just tried travel! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 16:54:05', 'category': 'travel', 'sentiment': 0.53, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-28 16:54:06 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:06 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:06 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:06 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:54:06 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 260
+2025-09-28 16:54:06 | INFO | --------------------------------
+2025-09-28 16:54:08 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:08 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:08 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 261
+2025-09-28 16:54:08 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:54:08 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 260
+2025-09-28 16:54:08 | INFO | --------------------------------
+2025-09-28 16:54:10 | INFO | {'message': 'I just shared a movie! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 16:54:10', 'category': 'entertainment', 'sentiment': 0.13, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-28 16:54:10 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:10 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:10 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 261
+2025-09-28 16:54:10 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 259
+2025-09-28 16:54:10 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:10 | INFO | --------------------------------
+2025-09-28 16:54:12 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:12 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:12 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 261
+2025-09-28 16:54:12 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:12 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:12 | INFO | --------------------------------
+2025-09-28 16:54:14 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:14 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:14 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:14 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:14 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:14 | INFO | --------------------------------
+2025-09-28 16:54:15 | INFO | {'message': 'I just loved game! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 16:54:15', 'category': 'gaming', 'sentiment': 0.14, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 16:54:16 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:16 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:16 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:16 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 260
+2025-09-28 16:54:16 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:16 | INFO | --------------------------------
+2025-09-28 16:54:18 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:18 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:18 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:18 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:18 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:18 | INFO | --------------------------------
+2025-09-28 16:54:20 | INFO | {'message': 'I just saw Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 16:54:20', 'category': 'tech', 'sentiment': 0.58, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 16:54:20 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:21 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:21 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 263
+2025-09-28 16:54:21 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 262
+2025-09-28 16:54:21 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:21 | INFO | --------------------------------
+2025-09-28 16:54:23 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:23 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:23 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 263
+2025-09-28 16:54:23 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:23 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 261
+2025-09-28 16:54:23 | INFO | --------------------------------
+2025-09-28 16:54:25 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:25 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:25 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 263
+2025-09-28 16:54:25 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:25 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 262
+2025-09-28 16:54:25 | INFO | --------------------------------
+2025-09-28 16:54:25 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 16:54:25', 'category': 'entertainment', 'sentiment': 0.68, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-28 16:54:27 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:27 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:27 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:27 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:27 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 262
+2025-09-28 16:54:27 | INFO | --------------------------------
+2025-09-28 16:54:29 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:29 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:29 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:29 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:29 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 262
+2025-09-28 16:54:29 | INFO | --------------------------------
+2025-09-28 16:54:30 | INFO | {'message': 'I just saw travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 16:54:30', 'category': 'travel', 'sentiment': 0.15, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-28 16:54:31 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:31 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:31 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:31 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:31 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:31 | INFO | --------------------------------
+2025-09-28 16:54:33 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:33 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:33 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:33 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:33 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:33 | INFO | --------------------------------
+2025-09-28 16:54:35 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:35 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:35 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:35 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:35 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 263
+2025-09-28 16:54:35 | INFO | --------------------------------
+2025-09-28 16:54:35 | INFO | {'message': 'I just found JavaScript! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:54:35', 'category': 'tech', 'sentiment': 0.53, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 16:54:37 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:37 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:37 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:37 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:37 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:37 | INFO | --------------------------------
+2025-09-28 16:54:39 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:39 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:39 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:39 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:39 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:39 | INFO | --------------------------------
+2025-09-28 16:54:40 | INFO | {'message': 'I just found a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 16:54:40', 'category': 'other', 'sentiment': 0.99, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 16:54:41 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:41 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:41 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:41 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 264
+2025-09-28 16:54:41 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:41 | INFO | --------------------------------
+2025-09-28 16:54:43 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:43 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:43 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:43 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:43 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:43 | INFO | --------------------------------
+2025-09-28 16:54:45 | INFO | {'message': 'I just loved a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 16:54:45', 'category': 'humor', 'sentiment': 0.82, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-28 16:54:45 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:45 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:45 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:45 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:45 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:45 | INFO | --------------------------------
+2025-09-28 16:54:47 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:47 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:47 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:47 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 265
+2025-09-28 16:54:47 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 267
+2025-09-28 16:54:47 | INFO | --------------------------------
+2025-09-28 16:54:49 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:49 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:49 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:49 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:49 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 267
+2025-09-28 16:54:49 | INFO | --------------------------------
+2025-09-28 16:54:50 | INFO | {'message': 'I just found a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 16:54:50', 'category': 'other', 'sentiment': 0.26, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 16:54:51 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:51 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:51 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:51 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:51 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 267
+2025-09-28 16:54:51 | INFO | --------------------------------
+2025-09-28 16:54:53 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:53 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:53 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:53 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:53 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 266
+2025-09-28 16:54:53 | INFO | --------------------------------
+2025-09-28 16:54:55 | INFO | {'message': 'I just found game! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 16:54:55', 'category': 'gaming', 'sentiment': 0.96, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-28 16:54:55 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:54:55 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:55 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:55 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:55 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:55 | INFO | --------------------------------
+2025-09-28 16:54:57 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:54:57 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:57 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:54:57 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:57 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:54:57 | INFO | --------------------------------
+2025-09-28 16:54:59 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:54:59 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:54:59 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:54:59 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 267
+2025-09-28 16:54:59 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 269
+2025-09-28 16:54:59 | INFO | --------------------------------
+2025-09-28 16:55:00 | INFO | {'message': 'I just tried a story! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:55:00', 'category': 'other', 'sentiment': 0.01, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-28 16:55:01 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:01 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:01 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:55:01 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:55:01 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 269
+2025-09-28 16:55:01 | INFO | --------------------------------
+2025-09-28 16:55:03 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:03 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:03 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:03 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:55:03 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 269
+2025-09-28 16:55:03 | INFO | --------------------------------
+2025-09-28 16:55:05 | INFO | {'message': 'I just shared game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 16:55:05', 'category': 'gaming', 'sentiment': 0.21, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 16:55:05 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:05 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:05 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:05 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 268
+2025-09-28 16:55:05 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 270
+2025-09-28 16:55:05 | INFO | --------------------------------
+2025-09-28 16:55:07 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:07 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:07 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:07 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:55:07 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 270
+2025-09-28 16:55:07 | INFO | --------------------------------
+2025-09-28 16:55:09 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:09 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:09 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:09 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:55:09 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 270
+2025-09-28 16:55:09 | INFO | --------------------------------
+2025-09-28 16:55:10 | INFO | {'message': 'I just tried Python! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 16:55:10', 'category': 'tech', 'sentiment': 0.1, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 16:55:11 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:11 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:11 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:11 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 269
+2025-09-28 16:55:11 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 271
+2025-09-28 16:55:11 | INFO | --------------------------------
+2025-09-28 16:55:13 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:13 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:13 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:13 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:13 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 271
+2025-09-28 16:55:13 | INFO | --------------------------------
+2025-09-28 16:55:15 | INFO | {'message': 'I just tried JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 16:55:15', 'category': 'tech', 'sentiment': 0.96, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-28 16:55:15 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:15 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:15 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:15 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:15 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 271
+2025-09-28 16:55:15 | INFO | --------------------------------
+2025-09-28 16:55:17 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:17 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:17 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:17 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 270
+2025-09-28 16:55:17 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:17 | INFO | --------------------------------
+2025-09-28 16:55:19 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:19 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:19 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:19 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:19 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:19 | INFO | --------------------------------
+2025-09-28 16:55:20 | INFO | {'message': 'I just loved an app! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:55:20', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 16:55:21 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:21 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:21 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:21 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 272
+2025-09-28 16:55:21 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:21 | INFO | --------------------------------
+2025-09-28 16:55:23 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:23 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:23 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:23 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:23 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 271
+2025-09-28 16:55:23 | INFO | --------------------------------
+2025-09-28 16:55:25 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 16:55:25', 'category': 'other', 'sentiment': 0.6, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 16:55:25 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:25 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:25 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:25 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:25 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 272
+2025-09-28 16:55:25 | INFO | --------------------------------
+2025-09-28 16:55:27 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:27 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:27 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:27 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:27 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 272
+2025-09-28 16:55:27 | INFO | --------------------------------
+2025-09-28 16:55:29 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:29 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:29 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:29 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:29 | INFO | Author: Charlie    | Avg Sentiment: 0.44 | Messages: 272
+2025-09-28 16:55:29 | INFO | --------------------------------
+2025-09-28 16:55:30 | INFO | {'message': 'I just saw game! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 16:55:30', 'category': 'gaming', 'sentiment': 0.91, 'keyword_mentioned': 'game', 'message_length': 31}
+2025-09-28 16:55:31 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:31 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:31 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:31 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:31 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:31 | INFO | --------------------------------
+2025-09-28 16:55:33 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:33 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:33 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:33 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:33 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:33 | INFO | --------------------------------
+2025-09-28 16:55:35 | INFO | {'message': 'I just found recipe! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 16:55:35', 'category': 'food', 'sentiment': 0.28, 'keyword_mentioned': 'recipe', 'message_length': 36}
+2025-09-28 16:55:35 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:35 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:35 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:35 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:35 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 273
+2025-09-28 16:55:35 | INFO | --------------------------------
+2025-09-28 16:55:37 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:37 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:37 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:37 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:37 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:37 | INFO | --------------------------------
+2025-09-28 16:55:39 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:39 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:39 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:39 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:39 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:39 | INFO | --------------------------------
+2025-09-28 16:55:40 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:55:40', 'category': 'humor', 'sentiment': 0.4, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 16:55:42 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:42 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:42 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:42 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 274
+2025-09-28 16:55:42 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:42 | INFO | --------------------------------
+2025-09-28 16:55:44 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:44 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:44 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:44 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:44 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:44 | INFO | --------------------------------
+2025-09-28 16:55:45 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 16:55:45', 'category': 'humor', 'sentiment': 0.13, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-28 16:55:46 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:46 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:46 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:46 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:46 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:46 | INFO | --------------------------------
+2025-09-28 16:55:48 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:48 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:48 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:48 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 275
+2025-09-28 16:55:48 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:48 | INFO | --------------------------------
+2025-09-28 16:55:50 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:50 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:50 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:50 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:50 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:50 | INFO | --------------------------------
+2025-09-28 16:55:50 | INFO | {'message': 'I just loved an app! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 16:55:50', 'category': 'other', 'sentiment': 0.62, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 16:55:52 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:52 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:52 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:52 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:52 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:52 | INFO | --------------------------------
+2025-09-28 16:55:54 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:55:54 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:54 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:54 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:54 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 276
+2025-09-28 16:55:54 | INFO | --------------------------------
+2025-09-28 16:55:55 | INFO | {'message': 'I just found Python! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 16:55:55', 'category': 'tech', 'sentiment': 0.24, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-28 16:55:56 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:55:56 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:56 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:56 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:56 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:56 | INFO | --------------------------------
+2025-09-28 16:55:58 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:55:58 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:55:58 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:55:58 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:55:58 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:55:58 | INFO | --------------------------------
+2025-09-28 16:56:00 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:56:00 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:00 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:56:00 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 277
+2025-09-28 16:56:00 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 279
+2025-09-28 16:56:00 | INFO | --------------------------------
+2025-09-28 16:56:00 | INFO | {'message': 'I just found an app! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 16:56:00', 'category': 'other', 'sentiment': 0.88, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-28 16:56:02 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:56:02 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:02 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:56:02 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:56:02 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 279
+2025-09-28 16:56:02 | INFO | --------------------------------
+2025-09-28 16:56:04 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:56:04 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:04 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:04 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:56:04 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 279
+2025-09-28 16:56:04 | INFO | --------------------------------
+2025-09-28 16:56:05 | INFO | {'message': 'I just shared an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 16:56:05', 'category': 'other', 'sentiment': 0.49, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 16:56:06 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:56:06 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:06 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:06 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 278
+2025-09-28 16:56:06 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 280
+2025-09-28 16:56:06 | INFO | --------------------------------
+2025-09-28 16:56:08 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:56:08 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:08 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:08 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:56:08 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 280
+2025-09-28 16:56:08 | INFO | --------------------------------
+2025-09-28 16:56:10 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:56:10 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:10 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:10 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:56:10 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 280
+2025-09-28 16:56:10 | INFO | --------------------------------
+2025-09-28 16:56:10 | INFO | {'message': 'I just loved a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 16:56:10', 'category': 'entertainment', 'sentiment': 0.52, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-28 16:56:12 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:56:12 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:12 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:12 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 279
+2025-09-28 16:56:12 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 281
+2025-09-28 16:56:12 | INFO | --------------------------------
+2025-09-28 16:56:14 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:56:14 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:14 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:14 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:14 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 281
+2025-09-28 16:56:14 | INFO | --------------------------------
+2025-09-28 16:56:15 | INFO | {'message': 'I just found recipe! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 16:56:15', 'category': 'food', 'sentiment': 0.55, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-28 16:56:16 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:56:16 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:16 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:16 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:16 | INFO | Author: Bob        | Avg Sentiment: 0.44 | Messages: 281
+2025-09-28 16:56:16 | INFO | --------------------------------
+2025-09-28 16:56:18 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:56:18 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:18 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:18 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 280
+2025-09-28 16:56:18 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:18 | INFO | --------------------------------
+2025-09-28 16:56:20 | INFO | {'message': 'I just tried JavaScript! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-28 16:56:20', 'category': 'tech', 'sentiment': 0.86, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-28 16:56:20 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:56:20 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:20 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:20 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:20 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:20 | INFO | --------------------------------
+2025-09-28 16:56:22 | INFO | Inserted message and updated sentiment for Alice.
+2025-09-28 16:56:22 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:22 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 283
+2025-09-28 16:56:22 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 282
+2025-09-28 16:56:22 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:22 | INFO | --------------------------------
+2025-09-28 16:56:24 | INFO | Inserted message and updated sentiment for Bob.
+2025-09-28 16:56:24 | INFO | --- Author Sentiment Summary ---
+2025-09-28 16:56:24 | INFO | Author: Alice      | Avg Sentiment: 0.45 | Messages: 283
+2025-09-28 16:56:24 | INFO | Author: Bob        | Avg Sentiment: 0.45 | Messages: 283
+2025-09-28 16:56:24 | INFO | Author: Charlie    | Avg Sentiment: 0.45 | Messages: 281
+2025-09-28 16:56:24 | INFO | --------------------------------
+2025-09-28 16:56:26 | INFO | Inserted message and updated sentiment for Charlie.
+2025-09-28 16:56:26 | INFO | --- Author Sentiment Summary ---
