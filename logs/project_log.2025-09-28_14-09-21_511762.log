@@ -1,0 +1,422 @@
+2025-09-28 14:09:21 | INFO | {'message': 'I just tried Python! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:21', 'category': 'tech', 'sentiment': 0.45, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 14:09:22 | INFO | Received message: {'message': 'Streaming message 168', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:22', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:22 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:22 | INFO | message={'message': 'Streaming message 168', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:22', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:22 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:22 | INFO | Inserted one message into the database.
+2025-09-28 14:09:22 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:22 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:22 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:22 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:22 | INFO | -----------------------------------
+2025-09-28 14:09:24 | INFO | Received message: {'message': 'Streaming message 169', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:24', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:24 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:24 | INFO | message={'message': 'Streaming message 169', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:24', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:24 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:24 | INFO | Inserted one message into the database.
+2025-09-28 14:09:24 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:24 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:24 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:24 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:24 | INFO | -----------------------------------
+2025-09-28 14:09:26 | INFO | Received message: {'message': 'Streaming message 170', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:26', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:26 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:26 | INFO | message={'message': 'Streaming message 170', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:26', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:26 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:26 | INFO | Inserted one message into the database.
+2025-09-28 14:09:26 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:26 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:26 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:26 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:26 | INFO | -----------------------------------
+2025-09-28 14:09:26 | INFO | {'message': 'I just found Python! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:26', 'category': 'tech', 'sentiment': 0.5, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 14:09:28 | INFO | Received message: {'message': 'Streaming message 171', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:28', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:28 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:28 | INFO | message={'message': 'Streaming message 171', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:28', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:28 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:28 | INFO | Inserted one message into the database.
+2025-09-28 14:09:28 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:28 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:28 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:28 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:28 | INFO | -----------------------------------
+2025-09-28 14:09:30 | INFO | Received message: {'message': 'Streaming message 172', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:30', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:30 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:30 | INFO | message={'message': 'Streaming message 172', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:30', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:30 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:30 | INFO | Inserted one message into the database.
+2025-09-28 14:09:30 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:30 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:30 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:30 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:30 | INFO | -----------------------------------
+2025-09-28 14:09:31 | INFO | {'message': 'I just tried a meme! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:31', 'category': 'humor', 'sentiment': 0.02, 'keyword_mentioned': 'meme', 'message_length': 37}
+2025-09-28 14:09:32 | INFO | Received message: {'message': 'Streaming message 173', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:32', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:32 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:32 | INFO | message={'message': 'Streaming message 173', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:32', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:32 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:32 | INFO | Inserted one message into the database.
+2025-09-28 14:09:32 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:32 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:32 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:32 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:32 | INFO | -----------------------------------
+2025-09-28 14:09:34 | INFO | Received message: {'message': 'Streaming message 174', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:34', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:34 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:34 | INFO | message={'message': 'Streaming message 174', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:34', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:34 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:34 | INFO | Inserted one message into the database.
+2025-09-28 14:09:34 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:34 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:34 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:34 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:34 | INFO | -----------------------------------
+2025-09-28 14:09:36 | INFO | Received message: {'message': 'Streaming message 175', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:36', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:36 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:36 | INFO | message={'message': 'Streaming message 175', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:36', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:36 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:36 | INFO | {'message': 'I just saw travel! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:36', 'category': 'travel', 'sentiment': 0.32, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-28 14:09:36 | INFO | Inserted one message into the database.
+2025-09-28 14:09:36 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:36 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:36 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:36 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:36 | INFO | -----------------------------------
+2025-09-28 14:09:38 | INFO | Received message: {'message': 'Streaming message 176', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:38', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:38 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:38 | INFO | message={'message': 'Streaming message 176', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:38', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:38 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:38 | INFO | Inserted one message into the database.
+2025-09-28 14:09:38 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:38 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:38 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:38 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:38 | INFO | -----------------------------------
+2025-09-28 14:09:40 | INFO | Received message: {'message': 'Streaming message 177', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:40', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:40 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:40 | INFO | message={'message': 'Streaming message 177', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:40', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:40 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:40 | INFO | Inserted one message into the database.
+2025-09-28 14:09:40 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:40 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:40 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:40 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:40 | INFO | -----------------------------------
+2025-09-28 14:09:41 | INFO | {'message': 'I just saw a meme! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:41', 'category': 'humor', 'sentiment': 0.56, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 14:09:42 | INFO | Received message: {'message': 'Streaming message 178', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:42', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:42 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:42 | INFO | message={'message': 'Streaming message 178', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:42', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:42 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:42 | INFO | Inserted one message into the database.
+2025-09-28 14:09:42 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:42 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:42 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:42 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:09:42 | INFO | -----------------------------------
+2025-09-28 14:09:44 | INFO | Received message: {'message': 'Streaming message 179', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:44', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:44 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:44 | INFO | message={'message': 'Streaming message 179', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:44', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:44 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:44 | INFO | Inserted one message into the database.
+2025-09-28 14:09:44 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:44 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:44 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:44 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:09:44 | INFO | -----------------------------------
+2025-09-28 14:09:46 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 14:09:46', 'category': 'gaming', 'sentiment': 0.4, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 14:09:46 | INFO | Received message: {'message': 'Streaming message 180', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:46', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:46 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:46 | INFO | message={'message': 'Streaming message 180', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:46', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:46 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:46 | INFO | Inserted one message into the database.
+2025-09-28 14:09:46 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:46 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:46 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:09:46 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:46 | INFO | -----------------------------------
+2025-09-28 14:09:48 | INFO | Received message: {'message': 'Streaming message 181', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:48', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:48 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:48 | INFO | message={'message': 'Streaming message 181', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:48', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:48 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:48 | INFO | Inserted one message into the database.
+2025-09-28 14:09:48 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:48 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:48 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:48 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:48 | INFO | -----------------------------------
+2025-09-28 14:09:50 | INFO | Received message: {'message': 'Streaming message 182', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:50', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:50 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:50 | INFO | message={'message': 'Streaming message 182', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:50', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:50 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:50 | INFO | Inserted one message into the database.
+2025-09-28 14:09:50 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:50 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:50 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:50 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:50 | INFO | -----------------------------------
+2025-09-28 14:09:51 | INFO | {'message': 'I just shared game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:51', 'category': 'gaming', 'sentiment': 0.22, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-28 14:09:52 | INFO | Received message: {'message': 'Streaming message 183', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:52', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:52 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:52 | INFO | message={'message': 'Streaming message 183', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:52', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:52 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:53 | INFO | Inserted one message into the database.
+2025-09-28 14:09:53 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:53 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:53 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:53 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:53 | INFO | -----------------------------------
+2025-09-28 14:09:55 | INFO | Received message: {'message': 'Streaming message 184', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:55', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:55 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:55 | INFO | message={'message': 'Streaming message 184', 'author': 'Bob', 'timestamp': '2025-09-28 14:09:55', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:55 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:55 | INFO | Inserted one message into the database.
+2025-09-28 14:09:55 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:55 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:55 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:55 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:55 | INFO | -----------------------------------
+2025-09-28 14:09:56 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:56', 'category': 'entertainment', 'sentiment': 0.4, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-28 14:09:57 | INFO | Received message: {'message': 'Streaming message 185', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:57', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:57 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:57 | INFO | message={'message': 'Streaming message 185', 'author': 'Charlie', 'timestamp': '2025-09-28 14:09:57', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:57 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:57 | INFO | Inserted one message into the database.
+2025-09-28 14:09:57 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:57 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:57 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:57 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:57 | INFO | -----------------------------------
+2025-09-28 14:09:59 | INFO | Received message: {'message': 'Streaming message 186', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:59', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:59 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:09:59 | INFO | message={'message': 'Streaming message 186', 'author': 'Alice', 'timestamp': '2025-09-28 14:09:59', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:09:59 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:09:59 | INFO | Inserted one message into the database.
+2025-09-28 14:09:59 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:09:59 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:09:59 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:09:59 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:09:59 | INFO | -----------------------------------
+2025-09-28 14:10:01 | INFO | Received message: {'message': 'Streaming message 187', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:01', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:01 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:01 | INFO | message={'message': 'Streaming message 187', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:01', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:01 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:01 | INFO | Inserted one message into the database.
+2025-09-28 14:10:01 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:01 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:01 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:01 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:10:01 | INFO | -----------------------------------
+2025-09-28 14:10:01 | INFO | {'message': 'I just loved an app! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:01', 'category': 'other', 'sentiment': 0.2, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 14:10:03 | INFO | Received message: {'message': 'Streaming message 188', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:03', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:03 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:03 | INFO | message={'message': 'Streaming message 188', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:03', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:03 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:03 | INFO | Inserted one message into the database.
+2025-09-28 14:10:03 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:03 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:03 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:03 | INFO | Author: Alice      | Avg Sentiment: 0.44
+2025-09-28 14:10:03 | INFO | -----------------------------------
+2025-09-28 14:10:05 | INFO | Received message: {'message': 'Streaming message 189', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:05', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:05 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:05 | INFO | message={'message': 'Streaming message 189', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:05', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:05 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:05 | INFO | Inserted one message into the database.
+2025-09-28 14:10:05 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:05 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:05 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:05 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:05 | INFO | -----------------------------------
+2025-09-28 14:10:06 | INFO | {'message': 'I just found JavaScript! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:06', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-28 14:10:07 | INFO | Received message: {'message': 'Streaming message 190', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:07', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:07 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:07 | INFO | message={'message': 'Streaming message 190', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:07', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:07 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:07 | INFO | Inserted one message into the database.
+2025-09-28 14:10:07 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:07 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:07 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:07 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:07 | INFO | -----------------------------------
+2025-09-28 14:10:09 | INFO | Received message: {'message': 'Streaming message 191', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:09', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:09 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:09 | INFO | message={'message': 'Streaming message 191', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:09', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:09 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:09 | INFO | Inserted one message into the database.
+2025-09-28 14:10:09 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:09 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:09 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:09 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:09 | INFO | -----------------------------------
+2025-09-28 14:10:11 | INFO | Received message: {'message': 'Streaming message 192', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:11', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:11 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:11 | INFO | message={'message': 'Streaming message 192', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:11', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:11 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:11 | INFO | Inserted one message into the database.
+2025-09-28 14:10:11 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:11 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:11 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:11 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:11 | INFO | -----------------------------------
+2025-09-28 14:10:11 | INFO | {'message': 'I just loved JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:11', 'category': 'tech', 'sentiment': 0.5, 'keyword_mentioned': 'JavaScript', 'message_length': 40}
+2025-09-28 14:10:13 | INFO | Received message: {'message': 'Streaming message 193', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:13', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:13 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:13 | INFO | message={'message': 'Streaming message 193', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:13', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:13 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:13 | INFO | Inserted one message into the database.
+2025-09-28 14:10:13 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:13 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:13 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:13 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:13 | INFO | -----------------------------------
+2025-09-28 14:10:15 | INFO | Received message: {'message': 'Streaming message 194', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:15', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:15 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:15 | INFO | message={'message': 'Streaming message 194', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:15', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:15 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:15 | INFO | Inserted one message into the database.
+2025-09-28 14:10:15 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:15 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:15 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:15 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:15 | INFO | -----------------------------------
+2025-09-28 14:10:16 | INFO | {'message': 'I just loved recipe! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-28 14:10:16', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-28 14:10:17 | INFO | Received message: {'message': 'Streaming message 195', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:17', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:17 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:17 | INFO | message={'message': 'Streaming message 195', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:17', 'category': 'demo', 'sentiment': 0.5, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:17 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:17 | INFO | Inserted one message into the database.
+2025-09-28 14:10:17 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:17 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:17 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:17 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:17 | INFO | -----------------------------------
+2025-09-28 14:10:19 | INFO | Received message: {'message': 'Streaming message 196', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:19', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:19 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:19 | INFO | message={'message': 'Streaming message 196', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:19', 'category': 'demo', 'sentiment': 0.6, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:19 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:19 | INFO | Inserted one message into the database.
+2025-09-28 14:10:19 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:19 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:19 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:19 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:19 | INFO | -----------------------------------
+2025-09-28 14:10:21 | INFO | Received message: {'message': 'Streaming message 197', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:21', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:21 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:21 | INFO | message={'message': 'Streaming message 197', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:21', 'category': 'demo', 'sentiment': 0.7, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:21 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:21 | INFO | Inserted one message into the database.
+2025-09-28 14:10:21 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:21 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:21 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:21 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:21 | INFO | -----------------------------------
+2025-09-28 14:10:21 | INFO | {'message': 'I just saw a story! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:21', 'category': 'other', 'sentiment': 0.3, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 14:10:23 | INFO | Received message: {'message': 'Streaming message 198', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:23', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:23 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:23 | INFO | message={'message': 'Streaming message 198', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:23', 'category': 'demo', 'sentiment': 0.8, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:23 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:23 | INFO | Inserted one message into the database.
+2025-09-28 14:10:23 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:23 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:23 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:23 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:23 | INFO | -----------------------------------
+2025-09-28 14:10:25 | INFO | Received message: {'message': 'Streaming message 199', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:25', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:25 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:25 | INFO | message={'message': 'Streaming message 199', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:25', 'category': 'demo', 'sentiment': 0.9, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:25 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:25 | INFO | Inserted one message into the database.
+2025-09-28 14:10:25 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:25 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:25 | INFO | Author: Charlie    | Avg Sentiment: 0.45
+2025-09-28 14:10:25 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:25 | INFO | -----------------------------------
+2025-09-28 14:10:26 | INFO | {'message': 'I just found a trick! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:26', 'category': 'other', 'sentiment': 0.56, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 14:10:27 | INFO | Received message: {'message': 'Streaming message 200', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:27', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:27 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:27 | INFO | message={'message': 'Streaming message 200', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:27', 'category': 'demo', 'sentiment': 0.0, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:27 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:27 | INFO | Inserted one message into the database.
+2025-09-28 14:10:27 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:27 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:27 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:27 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:10:27 | INFO | -----------------------------------
+2025-09-28 14:10:29 | INFO | Received message: {'message': 'Streaming message 201', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:29', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:29 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:29 | INFO | message={'message': 'Streaming message 201', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:29', 'category': 'demo', 'sentiment': 0.1, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:29 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:29 | INFO | Inserted one message into the database.
+2025-09-28 14:10:29 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:29 | INFO | Author: Bob        | Avg Sentiment: 0.45
+2025-09-28 14:10:29 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:29 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:10:29 | INFO | -----------------------------------
+2025-09-28 14:10:31 | INFO | {'message': 'I just shared Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:31', 'category': 'tech', 'sentiment': 0.77, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-28 14:10:31 | INFO | Received message: {'message': 'Streaming message 202', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:31', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:31 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:31 | INFO | message={'message': 'Streaming message 202', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:31', 'category': 'demo', 'sentiment': 0.2, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:31 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:31 | INFO | Inserted one message into the database.
+2025-09-28 14:10:31 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:31 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:31 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:31 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:10:31 | INFO | -----------------------------------
+2025-09-28 14:10:33 | INFO | Received message: {'message': 'Streaming message 203', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:33', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:33 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:33 | INFO | message={'message': 'Streaming message 203', 'author': 'Charlie', 'timestamp': '2025-09-28 14:10:33', 'category': 'demo', 'sentiment': 0.3, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:33 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:33 | INFO | Inserted one message into the database.
+2025-09-28 14:10:33 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:33 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:33 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:33 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:10:33 | INFO | -----------------------------------
+2025-09-28 14:10:35 | INFO | Received message: {'message': 'Streaming message 204', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:35', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:35 | INFO | Calling SQLite insert_message() with:
+2025-09-28 14:10:35 | INFO | message={'message': 'Streaming message 204', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:35', 'category': 'demo', 'sentiment': 0.4, 'keyword_mentioned': 'demo', 'message_length': 21}
+2025-09-28 14:10:35 | INFO | db_path=WindowsPath('C:/Repos/buzzline-05-sahoward/data/buzz.sqlite')
+2025-09-28 14:10:35 | INFO | Inserted one message into the database.
+2025-09-28 14:10:35 | INFO | --- Average Sentiment by Author ---
+2025-09-28 14:10:35 | INFO | Author: Alice      | Avg Sentiment: 0.45
+2025-09-28 14:10:35 | INFO | Author: Bob        | Avg Sentiment: 0.44
+2025-09-28 14:10:35 | INFO | Author: Charlie    | Avg Sentiment: 0.44
+2025-09-28 14:10:35 | INFO | -----------------------------------
+2025-09-28 14:10:36 | INFO | {'message': 'I just shared Python! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-28 14:10:36', 'category': 'tech', 'sentiment': 0.75, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 14:10:41 | INFO | {'message': 'I just shared a trick! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 14:10:41', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 14:10:46 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:46', 'category': 'humor', 'sentiment': 0.95, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-28 14:10:51 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:51', 'category': 'humor', 'sentiment': 0.23, 'keyword_mentioned': 'meme', 'message_length': 38}
+2025-09-28 14:10:56 | INFO | {'message': 'I just loved JavaScript! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 14:10:56', 'category': 'tech', 'sentiment': 0.38, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-28 14:11:01 | INFO | {'message': 'I just tried a trick! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:11:01', 'category': 'other', 'sentiment': 0.87, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 14:11:06 | INFO | {'message': 'I just tried game! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 14:11:06', 'category': 'gaming', 'sentiment': 0.59, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-28 14:11:11 | INFO | {'message': 'I just found game! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:11:11', 'category': 'gaming', 'sentiment': 0.03, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-28 14:11:16 | INFO | {'message': 'I just loved JavaScript! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:11:16', 'category': 'tech', 'sentiment': 0.41, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-28 14:11:21 | INFO | {'message': 'I just saw travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-28 14:11:21', 'category': 'travel', 'sentiment': 0.27, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-28 14:11:26 | INFO | Logging to file: logs/project_log.log
+2025-09-28 14:11:26 | INFO | Log sanitization enabled, personal info removed
+2025-09-28 14:11:26 | INFO | {'message': 'I just loved a movie! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-28 14:11:26', 'category': 'entertainment', 'sentiment': 0.27, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-28 14:11:31 | INFO | {'message': 'I just shared a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:11:31', 'category': 'other', 'sentiment': 0.19, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 14:11:36 | INFO | {'message': 'I just saw a story! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:11:36', 'category': 'other', 'sentiment': 0.81, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-28 14:11:41 | INFO | {'message': 'I just tried JavaScript! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-28 14:11:41', 'category': 'tech', 'sentiment': 0.27, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-28 14:11:46 | INFO | {'message': 'I just shared JavaScript! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 14:11:46', 'category': 'tech', 'sentiment': 0.41, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-28 14:11:51 | INFO | {'message': 'I just tried a movie! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-28 14:11:51', 'category': 'entertainment', 'sentiment': 0.08, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-28 14:11:56 | INFO | {'message': 'I just found travel! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:11:56', 'category': 'travel', 'sentiment': 0.92, 'keyword_mentioned': 'travel', 'message_length': 37}
+2025-09-28 14:12:01 | INFO | {'message': 'I just saw an app! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:12:01', 'category': 'other', 'sentiment': 0.23, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-28 14:12:06 | INFO | {'message': 'I just saw a meme! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:06', 'category': 'humor', 'sentiment': 0.62, 'keyword_mentioned': 'meme', 'message_length': 32}
+2025-09-28 14:12:11 | INFO | {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:11', 'category': 'other', 'sentiment': 0.74, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-28 14:12:16 | INFO | {'message': 'I just found travel! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-28 14:12:16', 'category': 'travel', 'sentiment': 0.28, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-28 14:12:21 | INFO | {'message': 'I just loved travel! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:12:21', 'category': 'travel', 'sentiment': 0.47, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-28 14:12:26 | INFO | {'message': 'I just saw game! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:26', 'category': 'gaming', 'sentiment': 0.77, 'keyword_mentioned': 'game', 'message_length': 32}
+2025-09-28 14:12:31 | INFO | {'message': 'I just found game! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:12:31', 'category': 'gaming', 'sentiment': 0.82, 'keyword_mentioned': 'game', 'message_length': 34}
+2025-09-28 14:12:36 | INFO | {'message': 'I just loved Python! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:36', 'category': 'tech', 'sentiment': 0.13, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-28 14:12:41 | INFO | {'message': 'I just saw an app! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:41', 'category': 'other', 'sentiment': 0.76, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-28 14:12:46 | INFO | {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 14:12:46', 'category': 'travel', 'sentiment': 0.83, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-28 14:12:51 | INFO | {'message': 'I just found recipe! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:51', 'category': 'food', 'sentiment': 0.84, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-28 14:12:56 | INFO | {'message': 'I just shared Python! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-28 14:12:56', 'category': 'tech', 'sentiment': 0.62, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-28 14:13:01 | INFO | {'message': 'I just tried Python! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:13:01', 'category': 'tech', 'sentiment': 0.99, 'keyword_mentioned': 'Python', 'message_length': 36}
+2025-09-28 14:13:06 | INFO | {'message': 'I just tried a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-28 14:13:06', 'category': 'humor', 'sentiment': 0.22, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-28 14:13:11 | INFO | {'message': 'I just saw a movie! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:13:11', 'category': 'entertainment', 'sentiment': 0.78, 'keyword_mentioned': 'movie', 'message_length': 34}
+2025-09-28 14:13:16 | INFO | {'message': 'I just found a movie! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-28 14:13:16', 'category': 'entertainment', 'sentiment': 0.02, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-28 14:13:21 | INFO | {'message': 'I just saw a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-28 14:13:21', 'category': 'entertainment', 'sentiment': 0.64, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-28 14:13:26 | INFO | {'message': 'I just loved an app! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-28 14:13:26', 'category': 'other', 'sentiment': 0.63, 'keyword_mentioned': 'other', 'message_length': 35}
