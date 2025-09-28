@@ -1,10 +1,12 @@
 """
 consumer_sahoward.py
 
+
 Consumes messages one at a time and stores them in SQLite.
 Maintains a rolling average sentiment per author in an
 `author_sentiment` table, creating the table on-the-fly if missing.
 """
+
 
 #####################################
 # Import Modules
@@ -15,8 +17,10 @@ import time
 import utils.utils_config as config
 from utils.utils_logger import logger
 
+
 # Relative import to DB helper in the same folder
 from .sqlite_consumer_case import init_db  # DB helper
+
 
 #####################################
 # Path Setup
@@ -24,8 +28,11 @@ from .sqlite_consumer_case import init_db  # DB helper
 DATA_PATH: pathlib.Path = config.get_base_data_path()
 DB_PATH: pathlib.Path = DATA_PATH / "buzz.sqlite"
 
+
 # Initialize DB (creates streamed_messages and author_sentiment tables if missing)
 init_db(DB_PATH)
+
+
 
 
 #####################################
@@ -50,6 +57,8 @@ def ensure_author_sentiment_table():
         logger.error(f"ERROR: Failed to ensure author_sentiment table: {e}")
 
 
+
+
 #####################################
 # Insert message and update author sentiment
 #####################################
@@ -60,9 +69,11 @@ def insert_message_and_update(message: dict) -> None:
     """
     ensure_author_sentiment_table()  # <-- self-healing
 
+
     try:
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
+
 
             # Insert into streamed_messages
             cursor.execute(
@@ -82,12 +93,14 @@ def insert_message_and_update(message: dict) -> None:
                 ),
             )
 
+
             # Update author_sentiment table
             cursor.execute(
                 "SELECT avg_sentiment, message_count FROM author_sentiment WHERE author = ?",
                 (message["author"],),
             )
             row = cursor.fetchone()
+
 
             if row:
                 old_avg, count = row
@@ -103,10 +116,13 @@ def insert_message_and_update(message: dict) -> None:
                     (message["author"], message["sentiment"], 1),
                 )
 
+
             conn.commit()
         logger.info(f"Inserted message and updated sentiment for {message['author']}.")
     except Exception as e:
         logger.error(f"ERROR: Failed to insert/update message: {e}")
+
+
 
 
 #####################################
@@ -116,6 +132,7 @@ def display_author_sentiment():
     """Query author_sentiment and log current averages."""
     ensure_author_sentiment_table()  # <-- self-healing
 
+
     try:
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
@@ -124,12 +141,15 @@ def display_author_sentiment():
             )
             rows = cursor.fetchall()
 
+
         logger.info("--- Author Sentiment Summary ---")
         for author, avg, count in rows:
             logger.info(f"Author: {author:<10} | Avg Sentiment: {avg:.2f} | Messages: {count}")
         logger.info("--------------------------------")
     except Exception as e:
         logger.error(f"ERROR: Failed to display author sentiment: {e}")
+
+
 
 
 #####################################
@@ -155,6 +175,8 @@ def get_next_message():
         time.sleep(2)
 
 
+
+
 #####################################
 # Consumer Loop
 #####################################
@@ -165,6 +187,8 @@ def consume_messages():
     for message in message_source:
         insert_message_and_update(message)
         display_author_sentiment()
+
+
 
 
 #####################################
