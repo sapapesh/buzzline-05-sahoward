@@ -1,4 +1,4 @@
-# buzzline-05-case
+# buzzline-05-sahoward
 
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
@@ -171,15 +171,9 @@ python3 -m producers.producer_case
 
 NOTE: The producer will still work if the Kafka service is not available.
 
-### Consumer Terminal (Various Options)
+### Consumer Terminal 
 
-Start an associated consumer. 
-You have options. 
-
-1. Start the consumer that reads from the live data file.
-2. Start the consumer that reads from the Kafka topic.
-3. Start the consumer that reads from the SQLite relational data store. 
-4. Start the consumer that reads from the DuckDB relational data store.
+The below consumer will calculate the average sentiment for each other and update one message at a time.
 
 In VS Code, open a NEW terminal in your root project folder. 
 Use the commands below to activate .venv, and start the consumer. 
@@ -187,27 +181,14 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .\.venv\Scripts\Activate.ps1
-py -m consumers.kafka_consumer_case
-OR
-py -m consumers.file_consumer_case
-OR
-py -m consumers.sqlite_consumer_case.py
-OR
-py -m consumers.duckdb_consumer_case.py
+py -m consumers.consumer_sahoward
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
-OR
-python3 -m consumers.file_consumer_case
-OR
-python3 -m consumers.sqlite_consumer_case.py
-OR
-python3 -m consumers.duckdb_consumer_case.py
+python3 -m consumers.consumer_sahoward
 ```
-
 ---
 
 ## Review the Project Code
