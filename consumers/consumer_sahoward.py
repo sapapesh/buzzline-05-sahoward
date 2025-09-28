@@ -181,11 +181,12 @@ def main() -> None:
             bootstrap_servers=kafka_server,
             auto_offset_reset='latest',  # Start reading from the latest message
             enable_auto_commit=True,
-            # --- FIX: Use a hardcoded string here instead of the missing variable ---
-            group_id="sentiment-group-default", 
+            # --- CHANGE THIS TO A BRAND NEW NAME ---
+            group_id="sentiment-group-v2", # <--- Use a new, unique name here!
             value_deserializer=lambda x: json.loads(x.decode('utf-8'))
         )
         logger.info(f"Kafka consumer connected to {kafka_server} on topic '{topic}'")
+        
     except Exception as e:
         logger.error(f"ERROR: Failed to set up Kafka consumer. Is Kafka running? Error: {e}")
         return
