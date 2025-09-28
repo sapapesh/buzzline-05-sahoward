@@ -1,6 +1,6 @@
 # buzzline-05-sahoward
 
-For my specific example, consumer_sahoward.py, I am running a consumer to read one message at a time to get the average sentiment for each author.
+For my specific example, consumer_sahoward.py, I am running a consumer to read one message at a time to get the average sentiment for each author. I am creating an author_sentiment table in sqlite.
 
 Nearly every streaming analytics system stores processed data somewhere for further analysis, historical reference, or integration with BI tools.
 
